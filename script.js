@@ -1,0 +1,1 @@
+javascript:function flood(){var st=parseInt(document.getElementsByClassName("feedback_item_radio_v_left")[1].innerHTML.match(/(\bmultichoice_\S+\b)/ig)[0].replace("multichoice_",''));for(var i=st; i<st+9; i++){var s="multichoice_"+i+"_1";document.getElementById(s).checked=true;document.querySelectorAll("input[value=Continue]")[0].click();}} flood();
